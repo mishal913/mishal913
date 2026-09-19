@@ -2,11 +2,11 @@
 
 # AI & Machine Learning Engineer
 
-### Agentic AI • Bioinformatics • NLP • Reinforcement Learning • Robotics
+### Agentic AI • NLP • Reinforcement Learning • Robotics • Secure AI Systems
 
-I build end-to-end intelligent systems that combine **machine learning, reasoning, data engineering, scientific computing, and production software**.
+I build end-to-end intelligent systems that combine **machine learning, reasoning, automation, software engineering, and safety-aware design**.
 
-My projects focus on turning research ideas into reproducible, testable systems with clear evaluation, strong documentation, and practical engineering.
+My focus is on practical AI systems that can be evaluated, tested, explained, and deployed — not just isolated model experiments.
 
 </div>
 
@@ -35,29 +35,9 @@ Autonomous business-development agent that researches prospects, retrieves priva
 </td>
 <td width="50%" valign="top">
 
-### 🧬 [SpatialNicheAI](https://github.com/mishal913/spatial-niche-ai)
-
-Interpretable machine-learning workflow for breast-cancer spatial transcriptomics using public 10x Genomics Visium data.
-
-**Highlights**
-- Scanpy + Squidpy
-- PCA, UMAP, Leiden clustering
-- marker-gene and spatial analysis
-- interpretable niche classification
-- spatial-block validation
-- cross-section validation
-- Docker reproducibility
-- AWS EC2 + S3 workflow
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" valign="top">
-
 ### 🚚 [Autonomous RL Restaurant Delivery Robot](https://github.com/mishal913/Autonomous-RL-restaurant-delivery-Robot)
 
-Simulation project for autonomous restaurant/service delivery using reinforcement learning, global planning, local navigation, dynamic-human avoidance, and safety controls.
+Autonomous restaurant/service-delivery simulation combining reinforcement learning with classical planning and safety-aware navigation.
 
 **Highlights**
 - Soft Actor-Critic
@@ -65,11 +45,14 @@ Simulation project for autonomous restaurant/service delivery using reinforcemen
 - Predictive DWA
 - residual RL
 - deadlock recovery
-- dynamic-human safety
+- dynamic-human avoidance
 - Genesis simulation
 - seeded evaluation
 
 </td>
+</tr>
+
+<tr>
 <td width="50%" valign="top">
 
 ### 🧠 [Governance Consistency Checker](https://github.com/mishal913/governance-consistency-checker)
@@ -87,9 +70,6 @@ Explainable hybrid symbolic-neural system for detecting contradictions, entailme
 - CI-tested pipeline
 
 </td>
-</tr>
-
-<tr>
 <td width="50%" valign="top">
 
 ### 🔐 [StegoLab — Image & Audio Steganography](https://github.com/mishal913/steganography-image-audio)
@@ -107,98 +87,72 @@ Interactive image/audio steganography laboratory with integrity checking, error 
 - Dockerized execution
 
 </td>
-<td width="50%" valign="top">
-
-### 📂 [AI & ML Portfolio Index](https://github.com/mishal913/machine-learning-projects)
-
-Compact index linking the major AI/ML repositories in this profile.
-
-**Focus areas**
-- applied machine learning
-- scientific AI
-- NLP
-- agentic systems
-- reinforcement learning
-- reproducible research engineering
-
-</td>
 </tr>
 </table>
 
 ---
 
-## Technical Focus
+## Technical Stack
 
-**Machine Learning & AI**
+**AI / Machine Learning**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=111111)
 
-- supervised learning, model selection, validation, feature engineering
-- NLP, embeddings, semantic similarity, Natural Language Inference
-- RAG, LLM orchestration, agentic workflows
-- reinforcement learning and hybrid planning/control
+- supervised learning and model evaluation
+- NLP, embeddings, semantic similarity, and NLI
+- RAG and LLM orchestration
+- reinforcement learning and hybrid control
 - explainable and safety-aware AI
 
-**Bioinformatics & Scientific Computing**
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-- spatial transcriptomics
-- Scanpy / Squidpy workflows
-- biomarker and phenotype modeling
-- reproducible scientific pipelines
-- statistical and biological interpretation
-
-**Software & MLOps**
+**Backend / Data / Infrastructure**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111111)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 
 - FastAPI backends
 - React / TypeScript interfaces
 - PostgreSQL + pgvector
 - Docker / Docker Compose
 - GitHub Actions CI
-- AWS EC2 / S3
-- testing, logging, observability, security controls
+- testing, logging, observability, and security controls
 
 ---
 
-## How I Approach AI Projects
+## Engineering Approach
 
-I try to treat AI systems as **engineering systems**, not just model demos.
+I treat AI systems as **engineering systems**, not just demos.
 
 That means I care about:
 
-- choosing evaluation strategies that match the real deployment setting
-- preventing leakage and misleading validation
-- separating probabilistic model judgment from deterministic application logic
+- evaluation that matches the real deployment setting
+- avoiding leakage and misleading validation
+- separating model judgment from deterministic business logic
 - making model decisions inspectable
-- documenting limitations and failure modes
-- building reproducible environments
-- adding tests and CI where possible
-- keeping consequential actions behind explicit safety controls
+- documenting failure modes and limitations
+- reproducible environments
+- automated testing and CI
+- human approval for consequential actions
+- safety controls around autonomous behavior
 
 ---
 
 ## Current Interests
 
 ```text
-Agentic AI + RAG
-Scientific / Biomedical Machine Learning
-Bioinformatics
-NLP and Knowledge Representation
+Agentic AI
+Retrieval-Augmented Generation
+Natural Language Processing
+Knowledge Representation
 Reinforcement Learning
 Robotics and Autonomous Systems
 Explainable AI
+AI Safety and Guardrails
 Production ML Systems
 ```
 
@@ -210,11 +164,9 @@ Production ML Systems
 |---|---|
 | Agent orchestration | LangGraph stateful workflow with human approval |
 | Retrieval-augmented generation | private knowledge retrieval with pgvector |
-| Scientific ML | spatial transcriptomics niche classification |
-| Evaluation design | spatial holdout and cross-section validation |
-| NLP reasoning | SBERT + NLI + symbolic rules |
+| NLP reasoning | Sentence-BERT + NLI + symbolic rules |
 | Knowledge representation | RDF governance graph |
-| RL | SAC + residual control |
+| Reinforcement learning | SAC + residual control |
 | Classical planning | A* + DWA |
 | Safety | prompt-injection controls, action validation, emergency navigation shield |
 | Reproducibility | Docker, CI, structured experiment outputs |
@@ -223,7 +175,7 @@ Production ML Systems
 
 <div align="center">
 
-### Building practical AI systems across research and engineering.
+### Building practical AI systems across intelligent automation, language, and autonomous control.
 
 [![GitHub](https://img.shields.io/badge/GitHub-mishal913-181717?style=for-the-badge&logo=github)](https://github.com/mishal913)
 
